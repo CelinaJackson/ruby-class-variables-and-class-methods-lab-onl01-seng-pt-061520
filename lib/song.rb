@@ -11,7 +11,7 @@ class Song
   GENRE = [ ]
   def initialize(genre)
     @genre=(genre)
-    GENRES = genre 
+    GENRES = genre
   end
 
 
