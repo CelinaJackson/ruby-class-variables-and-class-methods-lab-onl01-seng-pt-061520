@@ -8,11 +8,7 @@ class Song
   def self.count
     @@count
   end
-  GENRE = [ ]
-  def initialize(genre)
-    @genre=(genre)
-    GENRES = genre
-  end
+  @@genres = [ ]
 
 
 
